@@ -90,7 +90,8 @@
 
 .navbar .navbar-brand,
 .navbar a.btn {
-    height: 75px;
+    height: 80px;
+    margin-left: 60px;
 }
 
 .navbar .navbar-nav .nav-link {
@@ -120,6 +121,7 @@
 @media (max-width: 991.98px) {
     .navbar .navbar-nav .nav-link  {
         margin-right: 0;
+        margin-left: 0;
         padding: 10px 0;
     }
 
@@ -129,10 +131,15 @@
 }
 
 @media (min-width: 992px) {
+    .navbar a.btn {
+    height: 80px;
+    margin-left: 0px;
+}
     .navbar .nav-item .dropdown-menu {
         display: block;
         border: none;
         margin-top: 0;
+        margin-left: 0;
         top: 150%;
         opacity: 0;
         visibility: hidden;
